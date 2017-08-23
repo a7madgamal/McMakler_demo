@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly: no props 1`] = `
+<li
+  className="list-item"
+>
+  <img
+    alt=""
+    src="https://d3e02gns9oqhhr.cloudfront.net/assets/expose_v2/thumbnail.5908c4916a1ca6.30802316.jpg"
+  />
+  <span
+    className="list-item-type"
+  >
+    Test
+  </span>
+  <div
+    className="list-item-info-container"
+  >
+    <h3
+      className="list-item-title"
+    >
+      Großzügige Altbauwohnung mit Balkon und Einbauküche
+    </h3>
+    <span
+      className="list-item-address"
+    >
+      09125
+       
+      Chemnitz
+    </span>
+    <div
+      className="list-info-container"
+    >
+      <span
+        className="list-item-price"
+      >
+        570
+         €
+      </span>
+      <span
+        className="list-item-area"
+      >
+        ab 
+        120.00
+         m2
+      </span>
+      <span
+        className="list-item-rooms"
+      >
+        3
+         Zimmer
+      </span>
+    </div>
+  </div>
+</li>
+`;
