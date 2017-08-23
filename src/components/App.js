@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from '../style/logo.svg';
 import List from './List';
 import McMaklerApi from '../models/McMaklerApi';
 
@@ -33,10 +32,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
         {this.state.status === 'ok'
           ? <List items={this.state.items} />
           : <div className="error-message">Oops, something went wrong!</div>}

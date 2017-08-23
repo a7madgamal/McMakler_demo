@@ -11,7 +11,7 @@ exports[`renders correctly: no props 1`] = `
   <span
     className="list-item-type"
   >
-    Test
+    Mieten
   </span>
   <div
     className="list-item-info-container"

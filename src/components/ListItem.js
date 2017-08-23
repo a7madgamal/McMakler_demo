@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 class ListItem extends Component {
+  printPurpose(purpose) {
+    return purpose === 0 ? 'Mieten' : 'Kaufen'
+  }
+  
   getImage(advertisementAssets) {
     for (let key in advertisementAssets) {
       if (advertisementAssets[key].titlePicture) {
@@ -13,7 +17,7 @@ class ListItem extends Component {
     return (
       <li className="list-item">
         <img src={this.getImage(this.props.item.advertisementAssets)} alt="" />
-        <span className="list-item-type">Test</span>
+        <span className="list-item-type">{this.printPurpose(this.props.item.purpose)}</span>
         <div className="list-item-info-container">
           <h3 className="list-item-title">
             {this.props.item.title}

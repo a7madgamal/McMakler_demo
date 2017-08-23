@@ -5,18 +5,6 @@ exports[`renders correctly: no props 1`] = `
   className="App"
 >
   <div
-    className="App-header"
-  >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <h2>
-      Welcome to React
-    </h2>
-  </div>
-  <div
     className="error-message"
   >
     Oops, something went wrong!
